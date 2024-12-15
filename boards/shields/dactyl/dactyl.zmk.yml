@@ -1,0 +1,15 @@
+file_format: "1"
+id: dactyl
+name: dactyl
+type: shield
+url:
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+siblings:
+  - dactyl_left
+  - dactyl_right
