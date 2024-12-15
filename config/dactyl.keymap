@@ -38,11 +38,10 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
             bindings = <
-&kp N1      &kp N2     &kp N3  &kp N4    &kp N5    &kp N6  &kp N7     &kp N8           &kp N9        &kp N0          &kp LC(BACKSPACE)  &kp BACKSPACE
-&kp TAB     &kp Q      &kp W   &kp F     &kp P     &kp G   &kp J      &kp L            &kp U         &kp Y           &kp SEMI           &kp BSLH
-&mo 2       &kp A      &kp R   &kp S     &kp T     &kp D   &kp H      &kp N            &kp E         &kp I           &kp O              &kp SQT
-&kp LSHIFT  &kp Z      &kp X   &kp C     &kp V     &kp B   &kp K      &kp M            &kp COMMA     &kp DOT         &kp FSLH           &mt RSHFT RET
-                 &kp UP &kp DOWN                                                                   &kp LEFT  &kp RIGHT
+&kp ESC     &kp N1     &kp N2  &kp N3    &kp N4    &kp N5  &kp N6     &kp N7           &kp N8        &kp N9          &kp N0             &kp BACKSPACE
+&kp TAB     &kp Q      &kp W   &kp E     &kp R     &kp T   &kp Y      &kp U            &kp I         &kp O           &kp P              &kp BSLH
+&mo 2       &kp A      &kp S   &kp D     &kp F     &kp G   &kp H      &kp J            &kp K         &kp L           &kp SEMI           &kp SQT
+&kp LSHIFT  &kp Z      &kp X   &kp C     &kp V     &kp B   &kp N      &kp M            &kp COMMA     &kp DOT         &kp FSLH           &mt RSHFT RET
                                        &kp LGUI &mo 1 &kp LSHIFT       &kp RET  &kp SPACE  &kp LCTRL
                                                 &kp LALT  &kp RET    &mo 1  &kp LSHIFT
             >;
@@ -62,7 +61,6 @@
 &trans  &kp PRCNT  &kp AMPS  &kp QMARK  &kp PLUS   &kp AT                       &kp DLLR       &kp UNDER  &kp LBKT     &kp RBKT  &kp EXCL       &trans
 &trans  &kp FSLH   &kp LPAR  &kp EQUAL  &kp N0     &kp LBRC                     &kp RBRC       &kp N1     &kp STAR     &kp RPAR  &kp MINUS      &kp SQT
 &trans  &kp N6     &kp N7    &kp N8     &kp N9     &kp PIPE                     &kp BACKSLASH  &kp N2     &kp N3       &kp N4    &kp N5         &trans
-                 &bootloader &kp LALT                                                          &kp RALT   &bootloader
                                        &kp LGUI &kp LALT &kp LCTRL    &kp RET  &mo RET  &kp RCTRL
                                                 &mo LOWER  &kp RET    &kp RALT  &kp RGUI
             >;
@@ -82,7 +80,6 @@
 &trans  &kp INS    &kp PSCRN  &kp LC(PG_UP)  &kp LC(PG_DN)  &trans   &kp PG_UP  &kp LC(LEFT_ARROW)  &kp UP     &kp LC(RIGHT_ARROW)  &trans     &trans
 &trans  &kp LALT   &kp GUI    &kp LSHFT      &kp LCTRL      &kp ESC  &kp PG_DN  &kp LEFT            &kp DOWN   &kp RIGHT            &kp BSPC   &kp DEL
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)      &trans   &trans     &trans              &trans     &trans               &trans     &trans
-                 &kp LGUI &kp LALT                                                             &kp RALT  &kp RGUI
                                        &kp LGUI &kp LALT &kp LCTRL    &kp SPACE  &kp RET  &kp RCTRL
                                                 &mo LOWER  &kp RET    &kp RALT  &kp RGUI
             >;
@@ -102,7 +99,6 @@
 &ext_power EP_TOG  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans        &trans  &kp K_PREV  &kp K_NEXT          &trans  &trans         &trans
 &trans             &trans             &trans             &trans        &trans        &trans        &trans  &kp K_PP    &trans              &trans  &trans         &trans
 &trans             &trans             &trans             &trans        &trans        &trans        &trans  &trans      &trans              &trans  &trans         &trans
-                 &kp LGUI &kp LALT                                                             &kp RALT  &kp RGUI
                                        &kp LGUI &kp LALT &kp LCTRL    &kp SPACE  &mo RAISE  &kp RCTRL
                                                 &mo LOWER  &kp RET    &kp RALT  &kp RGUI
             >;
